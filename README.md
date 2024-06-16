@@ -11,17 +11,17 @@
 
 ## 💻Descarga e Instalación de Power BI:
 
-[Descarga de Power Bi Desktop)[https://www.microsoft.com/es-es/download/details.aspx?id=58494] para abrir el dashboard
+[Descarga de Power Bi Desktop](https://www.microsoft.com/es-es/download/details.aspx?id=58494) para abrir el dashboard
 
 ## 🗂️ Desarrollo del Proyecto
 
-### **AVANCE 1**
+### 📊 AVANCE 1 
 
-1- Descargue los archivos:
-Base de datos .bak (AdventureWorksDW2019.bak)[https://learn.microsoft.com/es-es/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms]
-Base de datos .xlsx (DimCustomer.xlsx)[https://github.com/MFlorenciaLoCascio/BD_AventureWorks2019_ProyectoHenry/blob/main/DimCustomer.xlsx]
+#### 1️⃣ Descargue los archivos:
+Base de datos .bak [AdventureWorksDW2019.bak](https://learn.microsoft.com/es-es/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
+Base de datos .xlsx [DimCustomer.xlsx](https://github.com/MFlorenciaLoCascio/BD_AventureWorks2019_ProyectoHenry/blob/main/DimCustomer.xlsx)
 
-2- Restaure la base de datos `AdventureWorksDW2019` en SQL Server. 
+#### 2️⃣ Restaure la base de datos `AdventureWorksDW2019` en SQL Server. 
 
 + Importe en Power Bi, las siguientes tablas:
   
@@ -36,29 +36,29 @@ Base de datos .xlsx (DimCustomer.xlsx)[https://github.com/MFlorenciaLoCascio/BD_
 
 + Luego, importa el archivo de Excel `DimCustomer`
 
-3- Definí relaciones y cardinalidades entre tablas:
+#### 3️⃣ Definí relaciones y cardinalidades entre tablas:
 
 La tabla DimCustomer no está conectada al modelo de datos.
 Se determina que la tabla FactInternetSales es la que debe conectarse con DimCustomer, ya que ambas tablas comparten la columna CoustomerKey, que se utilizará para la conexión. 
 Se crea una relación entre DimCustomer y FactInternetSales usando las columnas CoustomerKey. Con una cardinalidad de 1 a muchos (1:N) 
 
-4- Realicé las siguientes transformaciones de tabla DimCustomer en Power Query:
+#### 4️⃣ Realicé las siguientes transformaciones de tabla DimCustomer en Power Query:
 
-a- Eliminación de columnas:
+🔸 Eliminación de columnas:
 
   +  Tabla DimCustomer: Columna18, Columna31, Surflix, SpanishEducation, FrenchEducation, SpanishOccupation y FrenchOccupation, y 12 filas con valores nulos en la columna CoustomerKey.
   +  Tabla FactInternetSales: CarrierTrackingNumber y CoustomerPONumber
 
-b- Combinación de columnas:
+🔸 Combinación de columnas:
 
 + En la tabla DimCustomer, se combinaron las columnas CountryRegionCode, CountryRegionCode_1, CountryRegionCode_2, CountryRegionCode_3, CountryRegionCode_4 y CountryRegionCode_5.
 
-c- Modificación de tipos de datos:
+🔸 Modificación de tipos de datos:
 
 + Tabla DimCoustomer: El tipo de dato de la columna "Title" se cambió de "cualquiera" a "texto".○
 + Tabla DimPromotion: El tipo de dato de la columna DiscountPct se modificó a porcentaje.
 
-d- Combinaciones y Fusiones de Tablas:
+🔸 Combinaciones y Fusiones de Tablas:
 
 + Combinaciones:
   + DimCustomer y DimGeography: Estas tablas se combinaron para integrar información geográfica (ciudad, provincia y código) directamente en la tabla de clientes (DimCustomer). Se utilizó una fusión de tipo "Externa Izquierda" (Left Join) basada en la columna GeographyKey presente en ambas tablas.
@@ -68,9 +68,9 @@ d- Combinaciones y Fusiones de Tablas:
     + Primer paso: Se realizó una fusión de tipo "Externa Izquierda" (Left Outer) entre las tablas DimProduct (utilizando la columna ProductSubcategoryKey) y DimProductSubcategory (utilizando la columna ProductSubcategorykey). Luego, se expandieron las columnas EnglishProductSubcategoryName y ProductCategoryKey. Finalmente, se renombró la columna “EnglishProductSubcategoryName” a “ProductSubcategoryName”.○
     + Segundo paso: Se fusionaron las tablas DimProduct (utilizando la columna DimProductSubcategory.1.ProductCategoryKey) y ProductCategory (utilizando la columna ProductCategoryKey) con una fusión de tipo "Externa Izquierda" (Left Outer). Se expandió la columna EnglishProductCategoryName y se renombró la columna “DimProductCategory.EnglishProductCategoryName” a “ProductCategoryName”. Para finalizar, se eliminaron las columnas DimProductSubcategory.1.ProductCategoryKey y DimProductSubcategory.
 
-+ Columnas eliminadas relacionadas con idiomas:
+🔸 Columnas eliminadas relacionadas con idiomas:
   
-  + Tabla DimProduct:
++ Tabla DimProduct:
     + Se mantuvieron las columnas: EnglishDescription y EnglishProductName.
     + Se eliminaron: FrenchDescription, ChineseDescription, ArabicDescription, HebrewDescription, ThaiDescription, GermanDescription, JapaneseDescription, TurkishDescription, SpanishProductName y FrenchProductName.
 
@@ -99,9 +99,9 @@ d- Combinaciones y Fusiones de Tablas:
     + Se eliminaron: SpanishPromotionName, FrenchPromotionName, SpanishPromotionType, FrenchPromotionType, SpanishPromotionCategory y FrenchPromotionCategory. 
 
 
-## AVANCE 2 
+### 📈 AVANCE 2 
 
-### Modelo Relacional y Mockup del proyecto
+#### Modelo Relacional y Mockup del proyecto
 
 Realicé el diseño del mockup que aborde problemas de negocio específicos, siguiendo el patrón Z para facilitar la comprensión y el análisis.
 Generé el modelo relacional eficiente controlando todas las relaciones que generó Power BI de manera automática, así como la cardinalidad de estas relaciones.
@@ -110,7 +110,7 @@ Generé el modelo relacional eficiente controlando todas las relaciones que gene
 
 Se plantean preguntas claves que el reporte debe responder, como el total de ingresos, la cantidad vendida, la utilidad bruta y neta, el COGS, la distribución de clientes por país y la utilidad por segmento de producto. Se incluyen fórmulas DAX para calcular estas métricas. También se describe la creación de visualizaciones como mapas, tablas y gráficos para mostrar la información de manera efectiva.
 
-## AVANCE 3 
+### 📋 AVANCE 3 
 
 Generación de medidas y columnas calculadas utilizando DAX para analizar los ingresos, costos y otros indicadores clave.
 Se realizan las siguientes acciones:
@@ -123,7 +123,7 @@ Se realizan las siguientes acciones:
   + Se organizan las medidas en una tabla de medidas y carpetas por tipo para facilitar su uso.
   + Se crea una medida adicional para calcular el costo total incluyendo el envío.
 
-## AVANCE 4
+### 💻 AVANCE 4
 
 Creación de un tablero completo en Power BI que permita analizar el rendimiento de Adventure Works, con un enfoque especial en el mercado de Estados Unidos.
 Se presentan de manera clara los ingresos, costos, rentabilidad y otros indicadores claves.
@@ -143,7 +143,7 @@ Se presentan de manera clara los ingresos, costos, rentabilidad y otros indicado
 5- Elementos visuales y de navegación:
   + Incorporar al reporte botones de navegación, el logo de la empresa, imágenes complementarias e imágenes que funcionen como botones con acciones asignadas.
 
-### Análisis del Tablero General:
+#### ➡️ Análisis del Tablero General:
 
 - KPIs financieros: Mostrar cifras actuales y comparativas del año anterior para Ingresos, Utilidad Neta y COGS.
 - Variaciones porcentuales: Mostrar la variación porcentual de Ingresos y COGS respecto al período anterior
@@ -151,7 +151,7 @@ Se presentan de manera clara los ingresos, costos, rentabilidad y otros indicado
 - Distribución geográfica: Incluir un mapa de clientes por país.
 - Segmentación de productos: Mostrar el rendimiento por Categorías de Productos y Subcategorías.
 
-### Análisis del Tablero de Estados Unidos:
+#### ➡️ Análisis del Tablero de Estados Unidos:
 
 - Mapa de provincias: Mostrar el rendimiento por estado.
 - Detalles financieros por ciudad: Presentar información detallada de COGS y Utilidad Bruta por ciudad.
