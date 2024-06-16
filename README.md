@@ -1,5 +1,4 @@
-{: align="left" }
-![Logo](https://github.com/MFlorenciaLoCascio/BD_AventureWorks2019_ProyectoHenry/assets/139195222/30754518-841a-49e3-b074-a4808d1b432d) {width: 50%; height: auto;} Análisis Financiero de Ventas Adventure Works Cycles
+# Análisis Financiero de Ventas Adventure Works Cycles
 Empresa multinacional especializada en la producción y fabricación de bicicletas, piezas y accesorios, con presencia en mercados de Norteamérica, Europa y Asia. 
 
 ## 🎯Objetivos:
@@ -105,7 +104,6 @@ Se expandió la columna EnglishProductCategoryName y se renombró la columna “
     + Se mantuvieron las columnas: EnglishPromotionName, EnglishPromotionType y EnglishPromotionCategory.
     + Se eliminaron: SpanishPromotionName, FrenchPromotionName, SpanishPromotionType, FrenchPromotionType, SpanishPromotionCategory y FrenchPromotionCategory. 
 
-
 ### 📈 AVANCE 2 
 
 #### Modelo Relacional y Mockup del proyecto
@@ -149,6 +147,14 @@ Se presentan de manera clara los ingresos, costos, rentabilidad y otros indicado
 
 5- Elementos visuales y de navegación:
   + Incorporar al reporte botones de navegación, el logo de la empresa, imágenes complementarias e imágenes que funcionen como botones con acciones asignadas.
+
+## ANÁLISIS DE MERCADO GENERAL 
+
+![Análisis Mercado General](https://github.com/MFlorenciaLoCascio/BD_AventureWorks2019_ProyectoHenry/assets/139195222/6d445a3b-9147-4e39-9eb5-70f1192f81ce)
+
+## ANÁLISIS DE MERCADO ESTADOS UNIDOS
+
+![Análisis_Mercado_EEUU](https://github.com/MFlorenciaLoCascio/BD_AventureWorks2019_ProyectoHenry/assets/139195222/7f9d14b9-3f5a-49c3-b628-1d46dafddb55)
 
 #### ➡️ Análisis del Tablero General:
 
