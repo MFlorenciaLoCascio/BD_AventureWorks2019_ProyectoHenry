@@ -18,21 +18,22 @@
 ### 📊 AVANCE 1 
 
 #### 1️⃣ Descargue los archivos:
-Base de datos .bak [AdventureWorksDW2019.bak](https://learn.microsoft.com/es-es/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
-Base de datos .xlsx [DimCustomer.xlsx](https://github.com/MFlorenciaLoCascio/BD_AventureWorks2019_ProyectoHenry/blob/main/DimCustomer.xlsx)
+Base de datos [AdventureWorksDW2019.bak](https://learn.microsoft.com/es-es/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
+
+Base de datos [DimCustomer.xlsx](https://github.com/MFlorenciaLoCascio/BD_AventureWorks2019_ProyectoHenry/blob/main/DimCustomer.xlsx)
 
 #### 2️⃣ Restaure la base de datos `AdventureWorksDW2019` en SQL Server. 
 
 + Importe en Power Bi, las siguientes tablas:
-  
-  +DimProduct
-  +DimProductCategory
-  +DimProductSubcategory
-  +DimDate
-  +DimPromotion
-  +DimSalesTerritory
-  +DimGeography
-  +FactInternetSales
+    
+  + DimProduct
+  + DimProductCategory
+  + DimProductSubcategory
+  + DimDate
+  + DimPromotion
+  + DimSalesTerritory
+  + DimGeography
+  + FactInternetSales
 
 + Luego, importa el archivo de Excel `DimCustomer`
 
@@ -64,9 +65,13 @@ Se crea una relación entre DimCustomer y FactInternetSales usando las columnas 
   + DimCustomer y DimGeography: Estas tablas se combinaron para integrar información geográfica (ciudad, provincia y código) directamente en la tabla de clientes (DimCustomer). Se utilizó una fusión de tipo "Externa Izquierda" (Left Join) basada en la columna GeographyKey presente en ambas tablas.
 
 + Fusiones:
- + DimProduct, DimProductCategory y DimProductSubcategory: Se fusionaron estas tres tablas para organizar la información de categorías y subcategorías como clasificaciones dentro de la tabla de productos (DimProduct).○
-    + Primer paso: Se realizó una fusión de tipo "Externa Izquierda" (Left Outer) entre las tablas DimProduct (utilizando la columna ProductSubcategoryKey) y DimProductSubcategory (utilizando la columna ProductSubcategorykey). Luego, se expandieron las columnas EnglishProductSubcategoryName y ProductCategoryKey. Finalmente, se renombró la columna “EnglishProductSubcategoryName” a “ProductSubcategoryName”.○
-    + Segundo paso: Se fusionaron las tablas DimProduct (utilizando la columna DimProductSubcategory.1.ProductCategoryKey) y ProductCategory (utilizando la columna ProductCategoryKey) con una fusión de tipo "Externa Izquierda" (Left Outer). Se expandió la columna EnglishProductCategoryName y se renombró la columna “DimProductCategory.EnglishProductCategoryName” a “ProductCategoryName”. Para finalizar, se eliminaron las columnas DimProductSubcategory.1.ProductCategoryKey y DimProductSubcategory.
+ + DimProduct, DimProductCategory y DimProductSubcategory: Se fusionaron estas tres tablas para organizar la información de categorías y subcategorías como clasificaciones dentro de la tabla de productos (DimProduct).
+   
+    + Primer paso: Se realizó una fusión de tipo "Externa Izquierda" (Left Outer) entre las tablas DimProduct (utilizando la columna ProductSubcategoryKey) y DimProductSubcategory (utilizando la columna ProductSubcategorykey).
+Luego, se expandieron las columnas EnglishProductSubcategoryName y ProductCategoryKey. Finalmente, se renombró la columna “EnglishProductSubcategoryName” a “ProductSubcategoryName”.
+
+    + Segundo paso: Se fusionaron las tablas DimProduct (utilizando la columna DimProductSubcategory.1.ProductCategoryKey) y ProductCategory (utilizando la columna ProductCategoryKey) con una fusión de tipo "Externa Izquierda" (Left Outer).
+Se expandió la columna EnglishProductCategoryName y se renombró la columna “DimProductCategory.EnglishProductCategoryName” a “ProductCategoryName”. Para finalizar, se eliminaron las columnas DimProductSubcategory.1.ProductCategoryKey y DimProductSubcategory.
 
 🔸 Columnas eliminadas relacionadas con idiomas:
   
@@ -106,7 +111,7 @@ Se crea una relación entre DimCustomer y FactInternetSales usando las columnas 
 Realicé el diseño del mockup que aborde problemas de negocio específicos, siguiendo el patrón Z para facilitar la comprensión y el análisis.
 Generé el modelo relacional eficiente controlando todas las relaciones que generó Power BI de manera automática, así como la cardinalidad de estas relaciones.
 
-### El objetivo es abordar un problema de negocio específico: analizar los ingresos, costos y rentabilidad de la empresa, con un enfoque particular en el mercado de Estados Unidos.
+🎯 El objetivo es abordar un problema de negocio específico: analizar los ingresos, costos y rentabilidad de la empresa, con un enfoque particular en el mercado de Estados Unidos.
 
 Se plantean preguntas claves que el reporte debe responder, como el total de ingresos, la cantidad vendida, la utilidad bruta y neta, el COGS, la distribución de clientes por país y la utilidad por segmento de producto. Se incluyen fórmulas DAX para calcular estas métricas. También se describe la creación de visualizaciones como mapas, tablas y gráficos para mostrar la información de manera efectiva.
 
