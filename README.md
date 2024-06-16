@@ -175,28 +175,28 @@ Se presentan de manera clara los ingresos, costos, rentabilidad y otros indicado
 
 #### 🗒️ Análisis de Mercado General
 
-▶️ Cantidad de Ventas con respecto a los años anteriores
+**Cantidad de Ventas con respecto a los años anteriores**
 Cantidad Total de Ventas: 60 mil unidades.
 Ventas Esperadas: 64 mil unidades.
 Insight: Las ventas actuales están ligeramente por debajo de las expectativas. Es importante ajustar las estrategias de marketing y ventas para cerrar esta brecha.
 
-▶️ COGS (Costo de los Bienes Vendidos) con respecto a los años anteriores
+**COGS (Costo de los Bienes Vendidos) con respecto a los años anteriores**
 COGS Total: $17 millones.
 COGS Esperado: $19 millones.
 Insight: El COGS actual es menor que el esperado, lo cual es positivo ya que indica un control efectivo de costos. 
 Continuar optimizando los procesos de producción y negociación con proveedores podría reducir aún más estos costos y mejorar la rentabilidad.
 
-▶️ Ingresos con respecto a los años anteriores
+**Ingresos con respecto a los años anteriores**
 Ingresos Totales: $29 millones.
 Ingresos Esperados: $32 millones.
 Insight: Los ingresos actuales están por debajo de las expectativas. Evaluar las estrategias de fijación de precios, promociones y ventas cruzadas puede ayudar a aumentar los ingresos y alcanzar las expectativas.
 
-▶️ Utilidad Bruta con respecto a los años anteriores
+**Utilidad Bruta con respecto a los años anteriores**
 Utilidad Bruta Total: $12 millones.
 Utilidad Bruta Esperada: $13 millones.
 Insight: La utilidad bruta está cercana a la expectativa, pero aún hay un margen de mejora. Aumentar las ventas mientras se mantienen los costos controlados es crucial para alcanzar y superar la utilidad bruta esperada.
 
-▶️ Utilidad Neta con respecto a los años anteriores
+**Utilidad Neta con respecto a los años anteriores**
 Utilidad Neta Total: $9 millones.
 Utilidad Neta Esperada: $10 millones.
 Insight: La utilidad neta está por debajo de la expectativa, lo que sugiere que hay margen para mejorar la eficiencia operativa y reducir los gastos generales. Implementar medidas de ahorro de costos y optimizar los procesos internos puede ayudar a mejorar la utilidad neta.
