@@ -1,4 +1,4 @@
-![Logo](https://github.com/MFlorenciaLoCascio/BD_AventureWorks2019_ProyectoHenry/assets/139195222/30754518-841a-49e3-b074-a4808d1b432d) {style="float: left;"} # Análisis Financiero de Ventas Adventure Works Cycles
+![Logo](https://github.com/MFlorenciaLoCascio/BD_AventureWorks2019_ProyectoHenry/assets/139195222/30754518-841a-49e3-b074-a4808d1b432d) {style="float: left; width: 50%; height: auto;"} # Análisis Financiero de Ventas Adventure Works Cycles
 Empresa multinacional especializada en la producción y fabricación de bicicletas, piezas y accesorios, con presencia en mercados de Norteamérica, Europa y Asia. 
 
 ## 🎯Objetivos:
