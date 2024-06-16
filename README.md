@@ -16,6 +16,8 @@ El objetivo principal es comprender los factores que inciden en las ventas, cost
 
 ## 🗂️ Desarrollo del Proyecto
 
+Aquí puede ingresar a ver el [Dashboard de Análisis Financiero Ventas Adventure Works Cycles](https://github.com/MFlorenciaLoCascio/BD_AventureWorks2019_ProyectoHenry/blob/main/An%C3%A1lisis_Financiero_Ventas_Adventure_Works_Cycles.pbix)
+
 ### 📊 AVANCE 1 
 
 #### 1️⃣ Descargue los archivos:
