@@ -175,38 +175,43 @@ Se presentan de manera clara los ingresos, costos, rentabilidad y otros indicado
 
 #### 🗒️ Análisis de Mercado General
 
-**Cantidad de Ventas con respecto a los años anteriores**
+**1. Cantidad de Ventas con respecto a los años anteriores**
+
 Cantidad Total de Ventas: 60 mil unidades.
 Ventas Esperadas: 64 mil unidades.
 Insight: Las ventas actuales están ligeramente por debajo de las expectativas. Es importante ajustar las estrategias de marketing y ventas para cerrar esta brecha.
 
-**COGS (Costo de los Bienes Vendidos) con respecto a los años anteriores**
+**2. COGS (Costo de los Bienes Vendidos) con respecto a los años anteriores**
+
 COGS Total: $17 millones.
 COGS Esperado: $19 millones.
 Insight: El COGS actual es menor que el esperado, lo cual es positivo ya que indica un control efectivo de costos. 
 Continuar optimizando los procesos de producción y negociación con proveedores podría reducir aún más estos costos y mejorar la rentabilidad.
 
-**Ingresos con respecto a los años anteriores**
+**3. Ingresos con respecto a los años anteriores**
+
 Ingresos Totales: $29 millones.
 Ingresos Esperados: $32 millones.
 Insight: Los ingresos actuales están por debajo de las expectativas. Evaluar las estrategias de fijación de precios, promociones y ventas cruzadas puede ayudar a aumentar los ingresos y alcanzar las expectativas.
 
-**Utilidad Bruta con respecto a los años anteriores**
+**4. Utilidad Bruta con respecto a los años anteriores**
+
 Utilidad Bruta Total: $12 millones.
 Utilidad Bruta Esperada: $13 millones.
 Insight: La utilidad bruta está cercana a la expectativa, pero aún hay un margen de mejora. Aumentar las ventas mientras se mantienen los costos controlados es crucial para alcanzar y superar la utilidad bruta esperada.
 
-**Utilidad Neta con respecto a los años anteriores**
+**5. Utilidad Neta con respecto a los años anteriores**
+
 Utilidad Neta Total: $9 millones.
 Utilidad Neta Esperada: $10 millones.
 Insight: La utilidad neta está por debajo de la expectativa, lo que sugiere que hay margen para mejorar la eficiencia operativa y reducir los gastos generales. Implementar medidas de ahorro de costos y optimizar los procesos internos puede ayudar a mejorar la utilidad neta.
 
-**1. Rentabilidad por Categoría:**
+**6. Rentabilidad por Categoría:**
 
 Accesorios tienen una gran proporción de ventas. 
 Se sugiere mejorar la eficiencia en la cadena de suministro para reducir los costos y aumentar la rentabilidad de esta categoría.
 
-**2. Subcategorías más vendidas:**
+**7. Subcategorías más vendidas:**
 
 - Neumáticos y ruedas son los productos más vendidos. 
 Crear estrategias de marketing y promociones específicas para estos productos para aumentar las ventas.
@@ -214,19 +219,19 @@ Crear estrategias de marketing y promociones específicas para estos productos p
 - Componentes de carretera también muestran una alta demanda.
 Se considera ampliar la línea de productos o mejorar la oferta de estos componentes.
 
-**3. Clientes por País:**
+**8. Clientes por País:**
 
 Estados Unidos muestra una alta densidad de clientes. 
 Considerar estrategias de expansión y localización de productos y servicios para estos mercados.
 
-**4. Costos y Margen Bruto:**
+**9. Costos y Margen Bruto:**
 
 El COGS (Costo de los bienes vendidos) esperado es considerablemente alto. 
 Revisar proveedores y procesos de producción para identificar oportunidades de reducción de costos.
 
 #### 🗒️ Análisis de Mercado de Estados Unidos
 
-1. Ventas por Categoría:
+**1. Ventas por Categoría:**
 
 - Los Accesorios representan una gran parte de las ventas y las Bicicletas tienen una venta significativa.
 Ofrecer promociones cruzadas con accesorios para bicicletas para aumentar el ticket promedio.
@@ -234,17 +239,17 @@ Ofrecer promociones cruzadas con accesorios para bicicletas para aumentar el tic
 - La ropa tiene menor demanda con respecto a las demas categorías.
 Se propone lanzar nuevas colecciones de ropa y realizar campañas de marketing para maximizar la visualización. 
 
-2. COGS y Utilidad Bruta por Ciudad:
+**2. COGS y Utilidad Bruta por Ciudad:**
 
 Bellflower y Burbank tienen altos costos de bienes vendidos (COGS) y utilidad bruta. 
 Investigar más sobre estas ciudades para identificar qué está impulsando los costos y para optimizar la cadena de suministro en estas áreas.
 
-3. Ingresos Acumulados:
+**3. Ingresos Acumulados:**
 
 Hay un crecimiento continuo en los ingresos acumulados desde 2011 hasta 2013, con un notable aumento hacia el final de 2013. En 2014 bajaron significativamente.
 Se recomienda invertir en marketing y expandir la presencia de mercado.
 
-4. Estacionalidad de Ventas:
+**4. Estacionalidad de Ventas:**
 
 Las ventas son más altas en los meses de diciembre y noviembre. 
 Planificar inventarios y promociones especiales para estos meses para aprovechar al máximo la temporada alta.
