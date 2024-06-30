@@ -150,13 +150,17 @@ Se presentan de manera clara los ingresos, costos, rentabilidad y otros indicado
 5- Elementos visuales y de navegación:
   + Incorporar al reporte botones de navegación, el logo de la empresa, imágenes complementarias e imágenes que funcionen como botones con acciones asignadas.
 
+![portada](https://github.com/MFlorenciaLoCascio/BD_AventureWorks2019_ProyectoHenry/assets/139195222/446e4bef-23df-4f5f-818a-a0ccc6b4aafb)
+
 ## ANÁLISIS DE MERCADO GENERAL 
 
-![Análisis Mercado General](https://github.com/MFlorenciaLoCascio/BD_AventureWorks2019_ProyectoHenry/assets/139195222/6d445a3b-9147-4e39-9eb5-70f1192f81ce)
+![Captura de pantalla 2024-06-30 020346](https://github.com/MFlorenciaLoCascio/BD_AventureWorks2019_ProyectoHenry/assets/139195222/ac3d62f3-d8c7-4315-90ae-2a6daa6127b4)
+
 
 ## ANÁLISIS DE MERCADO ESTADOS UNIDOS
 
-![Análisis_Mercado_EEUU](https://github.com/MFlorenciaLoCascio/BD_AventureWorks2019_ProyectoHenry/assets/139195222/7f9d14b9-3f5a-49c3-b628-1d46dafddb55)
+![Captura de pantalla 2024-06-30 020532](https://github.com/MFlorenciaLoCascio/BD_AventureWorks2019_ProyectoHenry/assets/139195222/7a0cd62d-1952-49d7-901f-c77018a0980c)
+
 
 #### ➡️ Análisis del Tablero General:
 
