@@ -162,21 +162,6 @@ Se presentan de manera clara los ingresos, costos, rentabilidad y otros indicado
 ![Captura de pantalla 2024-06-30 020532](https://github.com/MFlorenciaLoCascio/BD_AventureWorks2019_ProyectoHenry/assets/139195222/7a0cd62d-1952-49d7-901f-c77018a0980c)
 
 
-#### ➡️ Análisis del Tablero General:
-
-- KPIs financieros: Mostrar cifras actuales y comparativas del año anterior para Ingresos, Utilidad Neta y COGS.
-- Variaciones porcentuales: Mostrar la variación porcentual de Ingresos y COGS respecto al período anterior
-- Rentabilidad: Resaltar la Utilidad Bruta y el Margen de Utilidad Neta.
-- Distribución geográfica: Incluir un mapa de clientes por país.
-- Segmentación de productos: Mostrar el rendimiento por Categorías de Productos y Subcategorías.
-
-#### ➡️ Análisis del Tablero de Estados Unidos:
-
-- Mapa de provincias: Mostrar el rendimiento por estado.
-- Detalles financieros por ciudad: Presentar información detallada de COGS y Utilidad Bruta por ciudad.
-- Evolución de ingresos acumulados: Incluir un gráfico de línea que muestre la evolución de los ingresos acumulados.
-- Iteraciones: Considerar la posibilidad de realizar iteraciones para mejorar la interpretación visual de los datos.
-
 ### 📊 Insights y Recomendaciones:
 
 #### 🗒️ Análisis de Mercado General
